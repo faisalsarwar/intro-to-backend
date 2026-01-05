@@ -1,0 +1,31 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalsarwar/intro-to-backend.git"
+  },
+  "author": "Faisal Sarwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisalsarwar/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/faisalsarwar/intro-to-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "brcypt": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
